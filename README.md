@@ -1,91 +1,94 @@
-📺 C++ Object-Oriented Programming – Practice Projects
+# 📺 C++ Object-Oriented Programming – Practice Projects
 
-This repository contains C++ Object-Oriented Programming (OOP) practice programs built around a YouTube channel simulation concept.
+This repository contains **C++ Object-Oriented Programming (OOP) practice programs** built around a **YouTube channel simulation** concept.
 
-⚠️ Note:
-A separate and more complete YouTube Management System exists in this repository.
-The files in this folder are learning-focused examples, created to understand OOP fundamentals step by step.
+⚠️ **Note:**
+A **separate and more complete YouTube Management System** exists in this repository.
+The files in this folder are **learning-focused examples**, created to understand OOP fundamentals step by step.
 
-🎯 Purpose of These Files
+---
+
+## 🎯 Purpose of These Files
 
 These programs are designed to:
 
-Practice C++ OOP concepts
+* Practice **C++ OOP concepts**
+* Understand how real-world systems are modeled in code
+* Build a strong foundation before moving to a full management system
 
-Understand how real-world systems are modeled in code
+---
 
-Build a strong foundation before moving to a full management system
+## 🧠 OOP Concepts Demonstrated
 
-🧠 OOP Concepts Demonstrated
+* Classes & Objects
+* Public vs Private access specifiers
+* Constructors
+* Encapsulation
+* Inheritance
+* STL `list` container
+* Basic input/output
 
-Classes & Objects
+---
 
-Public vs Private access specifiers
+## 📁 Files Included
 
-Constructors
+### 1️⃣ Basic Class & Object Example
 
-Encapsulation
+📌 **Description:**
+Demonstrates a simple class with **public members** and object creation.
 
-Inheritance
+📌 **Focus:**
 
-STL list container
+* Understanding how objects store and access data
+* Introduction to STL containers
 
-Basic input/output
+---
 
-📁 Files Included
-1️⃣ Basic Class & Object Example
+### 2️⃣ Encapsulation-Based YouTube Channel
 
-📌 Description:
-Demonstrates a simple class with public members and object creation.
+📌 **Description:**
+Improves the basic model by introducing **private data members** and **member functions**.
 
-📌 Focus:
+📌 **Focus:**
 
-Understanding how objects store and access data
+* Data hiding
+* Controlled access to subscribers and videos
+* Constructor usage
 
-Introduction to STL containers
+---
 
-2️⃣ Encapsulation-Based YouTube Channel
+### 3️⃣ Inheritance Example (Gaming Channel)
 
-📌 Description:
-Improves the basic model by introducing private data members and member functions.
+📌 **Description:**
+Extends the base YouTube class to create a **gaming-specific channel**.
 
-📌 Focus:
+📌 **Focus:**
 
-Data hiding
+* Inheritance
+* Code reusability
+* Extending base class functionality
 
-Controlled access to subscribers and videos
+---
 
-Constructor usage
+## 🛠 Compilation & Execution
 
-3️⃣ Inheritance Example (Gaming Channel)
+Use **g++** to compile any file:
 
-📌 Description:
-Extends the base YouTube class to create a gaming-specific channel.
-
-📌 Focus:
-
-Inheritance
-
-Code reusability
-
-Extending base class functionality
-
-🛠 Compilation & Execution
-
-Use g++ to compile any file:
-
+```bash
 g++ filename.cpp -o app
 ./app
+```
 
-🚀 Main Project
+---
 
-👉 YouTube Management System
-A separate file/project in this repository contains a more complete and structured YouTube Management System, which applies these OOP concepts in a practical way.
+## 🚀 Main Project
 
-👨‍💻 Author
+👉 **YouTube Management System**
+A separate file/project in this repository contains a **more complete and structured YouTube Management System**, which applies these OOP concepts in a practical way.
 
-Shahzeb Alam
+---
+
+## 👨‍💻 Author
+
+**Shahzeb Alam**
 C++ | OOP | Software Fundamentals
-
-⭐ These files represent my learning journey in C++ OOP.
-If you find them useful, feel free to star the repository!
